@@ -1,6 +1,24 @@
 title: David Dukić
-description: I am a postdoctoral researcher at the University of Zagreb, specializing in natural language processing. I obtained my PhD in 2025 from the Faculty of Electrical Engineering and Computing, University of Zagreb, under the supervision of [Jan Šnajder](https://www.fer.unizg.hr/en/jan.snajder). I also completed my bachelor’s and master’s studies at the same faculty. During my master’s program, I received the Rector’s Award for scientific research and twice won Croatia’s largest data science competition, LUMEN. Since 2021, I have been employed as an assistant at the Faculty of Electrical Engineering and Computing and am a member of [TakeLab](https://takelab.fer.hr/), where I lead the [TakeLab Retriever](https://retriever.takelab.fer.hr/) project.
+description: Postdoctoral NLP researcher at TakeLab, University of Zagreb, Croatia
 logo: /assets/img/logo.jpg
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
+
+# Social media links - will appear under your description
+social:
+  - name: LinkedIn
+    url: https://www.linkedin.com/in/david-duki%C4%87-7a86391a3/
+    icon: linkedin
+  - name: Google Scholar
+    url: https://scholar.google.com/citations?user=pHg6PjQAAAAJ&hl=en
+    icon: google-scholar
+  - name: X
+    url: https://x.com/ddaviddukic
+    icon: x-twitter
+  - name: Bluesky
+    url: https://bsky.app/profile/ddaviddukic.bsky.social
+    icon: bluesky
+  - name: Mail
+    url: mailto:david.dukic@fer.hr
+    icon: envelope

@@ -1,0 +1,34 @@
+<!-- Social links with FontAwesome icons -->
+<div class="social-links">
+  <style>
+    .social-links {
+      margin: 15px 0;
+    }
+    .social-links a {
+      display: inline-block;
+      margin-right: 12px;
+      color: #666;
+      text-decoration: none;
+    }
+    .social-links a:hover {
+      color: #267CB9;
+    }
+    .social-links i {
+      font-size: 1.2em;
+    }
+  </style>
+  <!-- Include FontAwesome for social icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  
+  {% for s in site.social %}
+  {% if s.icon == 'x-twitter' or s.icon == 'bluesky' or s.icon == 'google-scholar' or s.icon == 'linkedin' or s.icon == 'github' %}
+    <a href="{{ s.url | escape }}" title="{{ s.name }}" target="_blank" rel="noopener noreferrer">
+      <i class="fa-brands fa-{{ s.icon }}"></i>
+    </a>
+  {% else %}
+    <a href="{{ s.url | escape }}" title="{{ s.name }}" target="_blank" rel="noopener noreferrer">
+      <i class="fa-solid fa-{{ s.icon }}"></i>
+    </a>
+  {% endif %}
+{% endfor %}
+</div>
