@@ -18,7 +18,7 @@ I am a postdoctoral researcher at the University of Zagreb specializing in natur
     <li style="margin:0; padding:0; margin-left:-1.5em; list-style:none; text-align:left;">November 13, 2024 — <a href="https://aclanthology.org/2024.findings-emnlp.535/">Poster at EMNLP 2024 (Miami)</a></li>
     <li style="margin:0; padding:0; margin-left:-1.5em; list-style:none; text-align:left;">September 4, 2024 — <a href="https://sites.google.com/view/goranglavas">3 month visit starts at WüNLP (Prof. Glavaš)</a></li>
     <li style="margin:0; padding:0; margin-left:-1.5em; list-style:none; text-align:left;">August 14, 2024 — <a href="https://aclanthology.org/2024.findings-acl.843/">Poster at ACL 2024 (Bangkok)</a></li>
-    <li style="margin:0; padding:0; margin-left:-1.5em; list-style:none; text-align:left;">July 14, 2024 — <a href="https://www.eeml.eu/about">First day of EEML summer school in Novi Sad</a></li>
+    <li style="margin:0; padding:0; margin-left:-1.5em; list-style:none; text-align:left;">July 14, 2024 — <a href="https://www.eeml.eu/previous-editions/eeml2024">First day of EEML summer school in Novi Sad</a></li>
     <li style="margin:0; padding:0; margin-left:-1.5em; list-style:none; text-align:left;">April 9, 2024 — <a href="https://dnevnik.hr/vijesti/hrvatska/umjetna-inteligencija-u-istrazivackom-laboratoriju-fer-a-takelab-platforma-dostupna-svima-usmjerena-na-borbu-protiv-dezinformacija-admo---842141.html">Interview for NOVA TV</a></li>    
     <li style="margin:0; padding:0; margin-left:-1.5em; list-style:none; text-align:left;">March 22, 2024 — <a href="https://aclanthology.org/2024.findings-eacl.80/">Poster at EACL 2024 (Malta)</a></li>
     <li style="margin:0; padding:0; margin-left:-1.5em; list-style:none; text-align:left;">December 7, 2023 — <a href="https://www.netokracija.com/retriever-platforma-fer-take-lab-david-dukic-218061">Interview for Netokracija outlet</a></li>
@@ -37,7 +37,7 @@ I am a postdoctoral researcher at the University of Zagreb specializing in natur
 <div style="max-width:800px;">
   <div style="margin-bottom:1.5em;">
     <strong>Characterizing Linguistic Shifts in Croatian News via Diachronic Word Embeddings</strong><br/>
-    David Dukić, Ana Barić, Marko Čuljak, Josip Jukić, Martin Tutek<br/>
+    <i>David Dukić</i>, Ana Barić, Marko Čuljak, Josip Jukić, Martin Tutek<br/>
     <em>ACL 2025 (SLAVIC NLP Workshop)</em> &nbsp;|&nbsp; 
     <a href="https://aclanthology.org/2025.bsnlp-1.13/">paper</a> &nbsp;|&nbsp;
     <button onclick="navigator.clipboard.writeText(document.getElementById('bibtex-characterizing').innerText); this.innerText='Copied';" style="padding:0.15em 0.4em; border-radius:3px; border:1px solid #d1d5da; background:#f6f8fa; cursor:pointer;">
@@ -72,7 +72,7 @@ I am a postdoctoral researcher at the University of Zagreb specializing in natur
 
 <div style="margin-bottom:1.5em;">
     <strong>Are ELECTRA’s Sentence Embeddings Beyond Repair? The Case of Semantic Textual Similarity</strong><br/>
-    Ivan Rep, David Dukić, Jan Šnajder<br/>
+    Ivan Rep, <i>David Dukić</i>, Jan Šnajder<br/>
     <em>EMNLP 2024 (Findings)</em> &nbsp;|&nbsp; 
     <a href="https://aclanthology.org/2024.findings-emnlp.535/">paper</a> &nbsp;|&nbsp;
     <button onclick="navigator.clipboard.writeText(document.getElementById('bibtex-electra').innerText); this.innerText='Copied';" style="padding:0.15em 0.4em; border-radius:3px; border:1px solid #d1d5da; background:#f6f8fa; cursor:pointer;">
@@ -102,7 +102,7 @@ I am a postdoctoral researcher at the University of Zagreb specializing in natur
 
   <div style="margin-bottom:1.5em;">
     <strong>Looking Right is Sometimes Right: Investigating the Capabilities of Decoder-only LLMs for Sequence Labeling</strong><br/>
-    David Dukić, Jan Šnajder<br/>
+    <i>David Dukić</i>, Jan Šnajder<br/>
     <em>ACL 2024 (Findings)</em> &nbsp;|&nbsp; 
     <a href="https://aclanthology.org/2024.findings-acl.843/">paper</a> &nbsp;|&nbsp;
     <button onclick="navigator.clipboard.writeText(document.getElementById('bibtex-looking').innerText); this.innerText='Copied';" style="padding:0.15em 0.4em; border-radius:3px; border:1px solid #d1d5da; background:#f6f8fa; cursor:pointer;">
@@ -131,7 +131,7 @@ I am a postdoctoral researcher at the University of Zagreb specializing in natur
 
   <div style="margin-bottom:1.5em;">
     <strong>Leveraging Open Information Extraction for More Robust Domain Transfer of Event Trigger Detection</strong><br/>
-    David Dukić, Kiril Gashteovski, Goran Glavaš, Jan Šnajder<br/>
+    <i>David Dukić</i>, Kiril Gashteovski, Goran Glavaš, Jan Šnajder<br/>
     <em>EACL 2024 (Findings)</em> &nbsp;|&nbsp; 
     <a href="https://aclanthology.org/2024.findings-eacl.80/">paper</a> &nbsp;|&nbsp;
     <button onclick="navigator.clipboard.writeText(document.getElementById('bibtex-leveraging').innerText); this.innerText='Copied';" style="padding:0.15em 0.4em; border-radius:3px; border:1px solid #d1d5da; background:#f6f8fa; cursor:pointer;">
@@ -160,7 +160,7 @@ I am a postdoctoral researcher at the University of Zagreb specializing in natur
 
 <div style="margin-bottom:1.5em;">
     <strong>Target Two Birds With One SToNe: Entity-Level Sentiment and Tone Analysis in Croatian News Headlines</strong><br/>
-    Ana Barić, Laura Majer, David Dukić, Marijana Grbeša-Zenzerović, Jan Šnajder<br/>
+    Ana Barić, Laura Majer, <i>David Dukić</i>, Marijana Grbeša-Zenzerović, Jan Šnajder<br/>
     <em>EACL 2023 (SLAVIC NLP Workshop)</em> &nbsp;|&nbsp; 
     <a href="https://aclanthology.org/2023.bsnlp-1.10/">paper</a> &nbsp;|&nbsp;
     <button onclick="navigator.clipboard.writeText(document.getElementById('bibtex-target').innerText); this.innerText='Copied';" style="padding:0.15em 0.4em; border-radius:3px; border:1px solid #d1d5da; background:#f6f8fa; cursor:pointer;">
@@ -193,6 +193,28 @@ I am a postdoctoral researcher at the University of Zagreb specializing in natur
     pages = "78--85",
     abstract = "Sentiment analysis is often used to examine how different actors are portrayed in the media, and analysis of news headlines is of particular interest due to their attention-grabbing role. We address the task of entity-level sentiment analysis from Croatian news headlines. We frame the task as targeted sentiment analysis (TSA), explicitly differentiating between sentiment toward a named entity and the overall tone of the headline. We describe SToNe, a new dataset for this task with sentiment and tone labels. We implement several neural benchmark models, utilizing single- and multi-task training, and show that TSA can benefit from tone information. Finally, we gauge the difficulty of this task by leveraging dataset cartography."
 }
+    </pre>
+  </div>
+
+  <div style="margin-bottom:1.5em;">
+    <strong>Are You Human? Detecting Bots on Twitter Using BERT</strong><br/>
+    <i>David Dukić</i>, Dominik Keča, Dominik Stipić<br/>
+    <em>2020 IEEE 7th International Conference on Data Science and Advanced Analytics</em> &nbsp;|&nbsp; 
+    <a href="https://ieeexplore.ieee.org/abstract/document/9260074">paper</a> &nbsp;|&nbsp;
+    <button onclick="navigator.clipboard.writeText(document.getElementById('bibtex-human').innerText); this.innerText='Copied';" style="padding:0.15em 0.4em; border-radius:3px; border:1px solid #d1d5da; background:#f6f8fa; cursor:pointer;">
+      Copy BibTeX
+    </button>
+
+    <pre id="bibtex-human" style="display:none;">@INPROCEEDINGS{9260074,
+  author={Dukić, David and Keča, Dominik and Stipić, Dominik},
+  booktitle={2020 IEEE 7th International Conference on Data Science and Advanced Analytics (DSAA)}, 
+  title={Are You Human? Detecting Bots on Twitter Using BERT}, 
+  year={2020},
+  volume={},
+  number={},
+  pages={631-636},
+  keywords={Task analysis;Bit error rate;Feature extraction;Social networking (online);Deep learning;Bot (Internet);Logistics;BERT model;bot detection;emoji2vec;gender prediction;latent Dirichlet allocation;shallow vs. deep learning;t-SNE},
+  doi={10.1109/DSAA49011.2020.00089}}
     </pre>
   </div>
 </div>
