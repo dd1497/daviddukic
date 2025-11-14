@@ -2,7 +2,7 @@
 layout: default
 ---
 
-I am a postdoctoral researcher at the University of Zagreb specializing in natural language processing. I obtained my PhD (summa cum laude) in 2025 from the Faculty of Electrical Engineering and Computing, University of Zagreb, under the supervision of [Jan Šnajder](https://scholar.google.com/citations?user=7h0lKgIAAAAJ&hl=en). I completed my bachelor’s degree in 2019 and my master’s degree in 2021 at the same faculty. During my master’s studies, I received the Rector’s Award for scientific research. Since 2021, I have been employed as an assistant at the Faculty of Electrical Engineering and Computing and am a member of [TakeLab](https://takelab.fer.hr/), where I lead the [TakeLab Retriever](https://retriever.takelab.fer.hr/) project. TakeLab Retriever is a platform that scanned and indexed (with topics, named entities and phrases) more than ten million articles published in the last 25 years on Croatian news outlets. During my PhD I co-authored more than ten scientific papers, publishing at leading NLP venues such as [ACL](https://aclanthology.org/venues/acl/) and [EMNLP](https://aclanthology.org/venues/emnlp/). In my last year of PhD, I did a 3-month research visit at WüNLP group in Germany with Professor [Goran Glavaš](https://scholar.google.com/citations?user=Ym0myOwAAAAJ&hl=en).
+I am a postdoctoral researcher at the University of Zagreb specializing in natural language processing. I obtained my PhD (summa cum laude) in 2025 from the Faculty of Electrical Engineering and Computing, University of Zagreb, under the supervision of [Jan Šnajder](https://www.zemris.fer.hr/~jan/). I completed my bachelor’s degree in 2019 and my master’s degree in 2021 at the same faculty. During my master’s studies, I received the Rector’s Award for scientific research. Since 2021, I have been employed as an assistant at the Faculty of Electrical Engineering and Computing and am a member of [TakeLab](https://takelab.fer.hr/), where I lead the [TakeLab Retriever](https://retriever.takelab.fer.hr/) project. TakeLab Retriever is a platform that scanned and indexed (with topics, named entities and phrases) more than ten million articles published in the last 25 years on Croatian news outlets. During my PhD I co-authored more than ten scientific papers, publishing at leading NLP venues such as [ACL](https://aclanthology.org/venues/acl/) and [EMNLP](https://aclanthology.org/venues/emnlp/). In my last year of PhD, I did a 3-month research visit at WüNLP group in Germany with Professor [Goran Glavaš](https://sites.google.com/view/goranglavas).
 
 ## News
 
@@ -68,6 +68,9 @@ I am a postdoctoral researcher at the University of Zagreb specializing in natur
     abstract = "Measuring how semantics of words change over time improves our understanding of how cultures and perspectives change. Diachronic word embeddings help us quantify this shift, although previous studies leveraged substantial temporally annotated corpora. In this work, we use a corpus of 9.5 million Croatian news articles spanning the past 25 years and quantify semantic change using skip-gram word embeddings trained on five-year periods. Our analysis finds that word embeddings capture linguistic shifts of terms pertaining to major topics in this timespan (COVID-19, Croatia joining the European Union, technological advancements). We also find evidence that embeddings from post-2020 encode increased positivity in sentiment analysis tasks, contrasting studies reporting a decline in mental health over the same period."
 }
     </pre>
+    <br/>
+   <br/>
+    <img src="/assets/img/diachronic.png" alt="Description" style="max-width:75%; height:auto; border-radius:4px;">
   </div>
 
 <div style="margin-bottom:1.5em;">
@@ -98,6 +101,9 @@ I am a postdoctoral researcher at the University of Zagreb specializing in natur
     abstract = "While BERT produces high-quality sentence embeddings, its pre-training computational cost is a significant drawback. In contrast, ELECTRA provides a cost-effective pre-training objective and downstream task performance improvements, but worse sentence embeddings. The community tacitly stopped utilizing ELECTRA{'}s sentence embeddings for semantic textual similarity (STS). We notice a significant drop in performance for the ELECTRA discriminator{'}s last layer in comparison to prior layers. We explore this drop and propose a way to repair the embeddings using a novel truncated model fine-tuning (TMFT) method. TMFT improves the Spearman correlation coefficient by over 8 points while increasing parameter efficiency on the STS Benchmark. We extend our analysis to various model sizes, languages, and two other tasks. Further, we discover the surprising efficacy of ELECTRA{'}s generator model, which performs on par with BERT, using significantly fewer parameters and a substantially smaller embedding size. Finally, we observe boosts by combining TMFT with word similarity or domain adaptive pre-training."
 }
     </pre>
+    <br/>
+    <br/>
+    <img src="/assets/img/electra.png" alt="Description" style="max-width:75%; height:auto; border-radius:0px;">
   </div>
 
   <div style="margin-bottom:1.5em;">
@@ -127,6 +133,9 @@ I am a postdoctoral researcher at the University of Zagreb specializing in natur
     abstract = "Pre-trained language models based on masked language modeling (MLM) excel in natural language understanding (NLU) tasks. While fine-tuned MLM-based encoders consistently outperform causal language modeling decoders of comparable size, recent decoder-only large language models (LLMs) perform on par with smaller MLM-based encoders. Although their performance improves with scale, LLMs fall short of achieving state-of-the-art results in information extraction (IE) tasks, many of which are formulated as sequence labeling (SL). We hypothesize that LLMs' poor SL performance stems from causal masking, which prevents the model from attending to tokens on the right of the current token. Yet, how exactly and to what extent LLMs' performance on SL can be improved remains unclear. We explore techniques for improving the SL performance of open LLMs on IE tasks by applying layer-wise removal of the causal mask (CM) during LLM fine-tuning. This approach yields performance gains competitive with state-of-the-art SL models, matching or outperforming the results of CM removal from all blocks. Our findings hold for diverse SL tasks, demonstrating that open LLMs with layer-dependent CM removal outperform strong MLM-based encoders and even instruction-tuned LLMs."
 }
     </pre>
+    <br/>
+    <br/>
+    <img src="/assets/img/unmasking.png" alt="Description" style="max-width:75%; height:auto; border-radius:0px;">
   </div>
 
   <div style="margin-bottom:1.5em;">
@@ -156,6 +165,9 @@ I am a postdoctoral researcher at the University of Zagreb specializing in natur
     abstract = "Event detection is a crucial information extraction task in many domains, such as Wikipedia or news. The task typically relies on trigger detection (TD) {--} identifying token spans in the text that evoke specific events. While the notion of triggers should ideally be universal across domains, domain transfer for TD from high- to low-resource domains results in significant performance drops. We address the problem of negative transfer in TD by coupling triggers between domains using subject-object relations obtained from a rule-based open information extraction (OIE) system. We demonstrate that OIE relations injected through multi-task training can act as mediators between triggers in different domains, enhancing zero- and few-shot TD domain transfer and reducing performance drops, in particular when transferring from a high-resource source domain (Wikipedia) to a low(er)-resource target domain (news). Additionally, we combine this improved transfer with masked language modeling on the target domain, observing further TD transfer gains. Finally, we demonstrate that the gains are robust to the choice of the OIE system."
 }
     </pre>
+    <br/>
+    <br/>
+    <img src="/assets/img/trigger.png" alt="Description" style="max-width:75%; height:auto; border-radius:0px;">
   </div>
 
 <div style="margin-bottom:1.5em;">
@@ -194,6 +206,9 @@ I am a postdoctoral researcher at the University of Zagreb specializing in natur
     abstract = "Sentiment analysis is often used to examine how different actors are portrayed in the media, and analysis of news headlines is of particular interest due to their attention-grabbing role. We address the task of entity-level sentiment analysis from Croatian news headlines. We frame the task as targeted sentiment analysis (TSA), explicitly differentiating between sentiment toward a named entity and the overall tone of the headline. We describe SToNe, a new dataset for this task with sentiment and tone labels. We implement several neural benchmark models, utilizing single- and multi-task training, and show that TSA can benefit from tone information. Finally, we gauge the difficulty of this task by leveraging dataset cartography."
 }
     </pre>
+    <br/>
+    <br/>
+    <img src="/assets/img/stone.png" alt="Description" style="max-width:75%; height:auto; border-radius:0px;">
   </div>
 
   <div style="margin-bottom:1.5em;">
@@ -216,6 +231,9 @@ I am a postdoctoral researcher at the University of Zagreb specializing in natur
   keywords={Task analysis;Bit error rate;Feature extraction;Social networking (online);Deep learning;Bot (Internet);Logistics;BERT model;bot detection;emoji2vec;gender prediction;latent Dirichlet allocation;shallow vs. deep learning;t-SNE},
   doi={10.1109/DSAA49011.2020.00089}}
     </pre>
+    <br/>
+    <br/>
+    <img src="/assets/img/bot.png" alt="Description" style="max-width:75%; height:auto; border-radius:0px;">
   </div>
 </div>
 
