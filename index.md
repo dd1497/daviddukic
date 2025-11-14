@@ -70,7 +70,7 @@ I am a postdoctoral researcher at the University of Zagreb specializing in natur
     </pre>
     <br/>
    <br/>
-    <img src="/assets/img/diachronic.jpg" alt="Description" style="max-width:75%; height:auto; border-radius:4px;">
+    <img src="{{ '/assets/img/diachronic.jpg' | relative_url}}" alt="Description" style="max-width:75%; height:auto; border-radius:4px;">
   </div>
 
 <div style="margin-bottom:1.5em;">
@@ -103,7 +103,7 @@ I am a postdoctoral researcher at the University of Zagreb specializing in natur
     </pre>
     <br/>
     <br/>
-    <img src="/assets/img/electra.jpg" alt="Description" style="max-width:75%; height:auto; border-radius:0px;">
+    <img src="{{ '/assets/img/electra.jpg' | relative_url}}" alt="Description" style="max-width:75%; height:auto; border-radius:0px;">
   </div>
 
   <div style="margin-bottom:1.5em;">
@@ -135,7 +135,7 @@ I am a postdoctoral researcher at the University of Zagreb specializing in natur
     </pre>
     <br/>
     <br/>
-    <img src="/assets/img/unmasking.jpg" alt="Description" style="max-width:75%; height:auto; border-radius:0px;">
+    <img src="{{ '/assets/img/unmasking.jpg' | relative_url}}" alt="Description" style="max-width:75%; height:auto; border-radius:0px;">
   </div>
 
   <div style="margin-bottom:1.5em;">
@@ -167,7 +167,7 @@ I am a postdoctoral researcher at the University of Zagreb specializing in natur
     </pre>
     <br/>
     <br/>
-    <img src="/assets/img/trigger.jpg" alt="Description" style="max-width:75%; height:auto; border-radius:0px;">
+    <img src="{{ '/assets/img/trigger.jpg' | relative_url}}" alt="Description" style="max-width:75%; height:auto; border-radius:0px;">
   </div>
 
 <div style="margin-bottom:1.5em;">
@@ -208,7 +208,7 @@ I am a postdoctoral researcher at the University of Zagreb specializing in natur
     </pre>
     <br/>
     <br/>
-    <img src="/assets/img/stone.jpg" alt="Description" style="max-width:75%; height:auto; border-radius:0px;">
+    <img src="{{ '/assets/img/stone.jpg' | relative_url}}" alt="Description" style="max-width:75%; height:auto; border-radius:0px;">
   </div>
 
   <div style="margin-bottom:1.5em;">
@@ -231,9 +231,9 @@ I am a postdoctoral researcher at the University of Zagreb specializing in natur
   keywords={Task analysis;Bit error rate;Feature extraction;Social networking (online);Deep learning;Bot (Internet);Logistics;BERT model;bot detection;emoji2vec;gender prediction;latent Dirichlet allocation;shallow vs. deep learning;t-SNE},
   doi={10.1109/DSAA49011.2020.00089}}
     </pre>
-    <br/>
-    <br/>
-    <img src="/assets/img/bot.jpg" alt="Description" style="max-width:75%; height:auto; border-radius:0px;">
+      <br/>
+      <br/>
+      <img src="{{ '/assets/img/bot.jpg' | relative_url}}" alt="Description" style="max-width:75%; height:auto; border-radius:0px;">
   </div>
 </div>
 
