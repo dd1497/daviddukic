@@ -70,7 +70,7 @@ I am a postdoctoral researcher at the University of Zagreb specializing in natur
     </pre>
     <br/>
    <br/>
-    <img src="/assets/img/diachronic.png" alt="Description" style="max-width:75%; height:auto; border-radius:4px;">
+    <img src="/assets/img/diachronic.jpg" alt="Description" style="max-width:75%; height:auto; border-radius:4px;">
   </div>
 
 <div style="margin-bottom:1.5em;">
@@ -103,7 +103,7 @@ I am a postdoctoral researcher at the University of Zagreb specializing in natur
     </pre>
     <br/>
     <br/>
-    <img src="/assets/img/electra.png" alt="Description" style="max-width:75%; height:auto; border-radius:0px;">
+    <img src="/assets/img/electra.jpg" alt="Description" style="max-width:75%; height:auto; border-radius:0px;">
   </div>
 
   <div style="margin-bottom:1.5em;">
@@ -135,7 +135,7 @@ I am a postdoctoral researcher at the University of Zagreb specializing in natur
     </pre>
     <br/>
     <br/>
-    <img src="/assets/img/unmasking.png" alt="Description" style="max-width:75%; height:auto; border-radius:0px;">
+    <img src="/assets/img/unmasking.jpg" alt="Description" style="max-width:75%; height:auto; border-radius:0px;">
   </div>
 
   <div style="margin-bottom:1.5em;">
@@ -167,7 +167,7 @@ I am a postdoctoral researcher at the University of Zagreb specializing in natur
     </pre>
     <br/>
     <br/>
-    <img src="/assets/img/trigger.png" alt="Description" style="max-width:75%; height:auto; border-radius:0px;">
+    <img src="/assets/img/trigger.jpg" alt="Description" style="max-width:75%; height:auto; border-radius:0px;">
   </div>
 
 <div style="margin-bottom:1.5em;">
@@ -208,7 +208,7 @@ I am a postdoctoral researcher at the University of Zagreb specializing in natur
     </pre>
     <br/>
     <br/>
-    <img src="/assets/img/stone.png" alt="Description" style="max-width:75%; height:auto; border-radius:0px;">
+    <img src="/assets/img/stone.jpg" alt="Description" style="max-width:75%; height:auto; border-radius:0px;">
   </div>
 
   <div style="margin-bottom:1.5em;">
@@ -233,7 +233,7 @@ I am a postdoctoral researcher at the University of Zagreb specializing in natur
     </pre>
     <br/>
     <br/>
-    <img src="/assets/img/bot.png" alt="Description" style="max-width:75%; height:auto; border-radius:0px;">
+    <img src="/assets/img/bot.jpg" alt="Description" style="max-width:75%; height:auto; border-radius:0px;">
   </div>
 </div>
 
