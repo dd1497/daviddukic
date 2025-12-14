@@ -8,6 +8,7 @@ I am a postdoctoral researcher at the University of Zagreb specializing in natur
 
 <div style="max-height:200px; overflow-y:auto; border:1px solid #F8F8F8; padding:0.5em; border-radius:4px;">
   <ol style="margin:0; padding-left:1.5em;">
+    <li style="margin:0; padding:0; margin-left:-1.5em; list-style:none; text-align:left;">December 4, 2025 — <a href="https://www.linkedin.com/posts/david-duki%C4%87-7a86391a3_last-week-i-gave-an-invited-talk-at-faculty-activity-7404569845297598464-ODw0?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC-dLDABtIAIzThP-ZrU4gENoqVR-6r5-D4">Talk at Faculty of Political Science in Zagreb</a></li>
     <li style="margin:0; padding:0; margin-left:-1.5em; list-style:none; text-align:left;">November 5, 2025 — <a href="https://radio.hrt.hr/slusaonica/umjetna-inteligencija?epizoda=202511051310">Interview at HRT radio</a></li>
     <li style="margin:0; padding:0; margin-left:-1.5em; list-style:none; text-align:left;">November 5, 2025 — <a href="https://youtu.be/K-JNMjADfy0?t=19561">Talk at Croatian Academy of Sciences and Arts</a></li>
     <li style="margin:0; padding:0; margin-left:-1.5em; list-style:none; text-align:left;">October 13, 2025 — <a href="https://www.youtube.com/watch?v=s7ggrcSjqnA">Interview at HRT television</a></li>
@@ -15,6 +16,7 @@ I am a postdoctoral researcher at the University of Zagreb specializing in natur
     <li style="margin:0; padding:0; margin-left:-1.5em; list-style:none; text-align:left;">July 31, 2025 — <a href="https://aclanthology.org/2025.bsnlp-1.13/">Talk at SLAVIC NLP 2025 (Vienna)</a></li>
     <li style="margin:0; padding:0; margin-left:-1.5em; list-style:none; text-align:left;">June 19, 2025 — <a href="https://youtu.be/792uNHnbjxo?t=226">Interview at HRT television</a></li>
     <li style="margin:0; padding:0; margin-left:-1.5em; list-style:none; text-align:left;">June 5, 2025 — <a href="https://youtu.be/rGYke9DENoM?t=11973">Talk at PhD day</a></li>
+    <li style="margin:0; padding:0; margin-left:-1.5em; list-style:none; text-align:left;">February 28, 2025 — <a href="https://www.youtube.com/watch?v=6-ncr6jLnwQ">DU-CHECK Podcast</a></li>
     <li style="margin:0; padding:0; margin-left:-1.5em; list-style:none; text-align:left;">November 13, 2024 — <a href="https://aclanthology.org/2024.findings-emnlp.535/">Poster at EMNLP 2024 (Miami)</a></li>
     <li style="margin:0; padding:0; margin-left:-1.5em; list-style:none; text-align:left;">September 4, 2024 — <a href="https://sites.google.com/view/goranglavas">3 month visit starts at WüNLP (Prof. Glavaš)</a></li>
     <li style="margin:0; padding:0; margin-left:-1.5em; list-style:none; text-align:left;">August 14, 2024 — <a href="https://aclanthology.org/2024.findings-acl.843/">Poster at ACL 2024 (Bangkok)</a></li>
