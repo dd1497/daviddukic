@@ -16,6 +16,7 @@ I am a postdoctoral researcher at the University of Zagreb specializing in natur
     <li style="margin:0; padding:0; margin-left:-1.5em; list-style:none; text-align:left;">July 31, 2025 — <a href="https://aclanthology.org/2025.bsnlp-1.13/">Talk at SLAVIC NLP 2025 (Vienna)</a></li>
     <li style="margin:0; padding:0; margin-left:-1.5em; list-style:none; text-align:left;">June 19, 2025 — <a href="https://youtu.be/792uNHnbjxo?t=226">Interview at HRT television</a></li>
     <li style="margin:0; padding:0; margin-left:-1.5em; list-style:none; text-align:left;">June 5, 2025 — <a href="https://youtu.be/rGYke9DENoM?t=11973">Talk at PhD day</a></li>
+    <li style="margin:0; padding:0; margin-left:-1.5em; list-style:none; text-align:left;">March 26, 2025 — <a href="https://youtu.be/O5wSzywyyCs?t=2096">Talk at Srce DEI 2025</a></li>
     <li style="margin:0; padding:0; margin-left:-1.5em; list-style:none; text-align:left;">February 28, 2025 — <a href="https://www.youtube.com/watch?v=6-ncr6jLnwQ">DU-CHECK Podcast</a></li>
     <li style="margin:0; padding:0; margin-left:-1.5em; list-style:none; text-align:left;">November 13, 2024 — <a href="https://aclanthology.org/2024.findings-emnlp.535/">Poster at EMNLP 2024 (Miami)</a></li>
     <li style="margin:0; padding:0; margin-left:-1.5em; list-style:none; text-align:left;">September 4, 2024 — <a href="https://sites.google.com/view/goranglavas">3 month visit starts at WüNLP (Prof. Glavaš)</a></li>
@@ -37,6 +38,31 @@ I am a postdoctoral researcher at the University of Zagreb specializing in natur
 ## Selected Publications
 
 <div style="max-width:800px;">
+
+  <div style="margin-bottom:1.5em;">
+    <strong>Sequence Repetition Enhances Token Embeddings and Improves Sequence Labeling with Decoder-only Language Models</strong><br/>
+    Matija Luka Kukić, Marko Čuljak, <i>David Dukić</i>, Martin Tutek, Jan Šnajder<br/>
+    <em>EACL 2026 (Findings)</em> &nbsp;|&nbsp; 
+    <a href="https://arxiv.org/abs/2601.17585">paper</a> &nbsp;|&nbsp;
+    <button onclick="navigator.clipboard.writeText(document.getElementById('bibtex-repetition').innerText); this.innerText='Copied';" style="padding:0.15em 0.4em; border-radius:3px; border:1px solid #d1d5da; background:#f6f8fa; cursor:pointer;">
+      Copy BibTeX
+    </button>
+
+    <pre id="bibtex-repetition" style="display:none;">@misc{kukić2026sequencerepetitionenhancestoken,
+      title={Sequence Repetition Enhances Token Embeddings and Improves Sequence Labeling with Decoder-only Language Models}, 
+      author={Matija Luka Kukić and Marko Čuljak and David Dukić and Martin Tutek and Jan Šnajder},
+      year={2026},
+      eprint={2601.17585},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2601.17585}, 
+}
+    </pre>
+    <br/>
+   <br/>
+    <img src="{{ '/assets/img/repetition.jpg' | relative_url}}" alt="Description" style="max-width:70%; height:auto; border-radius:4px;">
+  </div>
+
   <div style="margin-bottom:1.5em;">
     <strong>Characterizing Linguistic Shifts in Croatian News via Diachronic Word Embeddings</strong><br/>
     <i>David Dukić</i>, Ana Barić, Marko Čuljak, Josip Jukić, Martin Tutek<br/>
