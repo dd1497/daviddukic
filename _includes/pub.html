@@ -1,0 +1,13 @@
+{% assign pub_id = include.title | slugify %}
+<div style="margin-bottom:1.5em;">
+  <strong>{{ include.title }}</strong><br/>
+  {{ include.authors }}<br/>
+  <em>{{ include.venue }}</em> &nbsp;|&nbsp;
+  <a href="{{ include.paper }}">paper</a> &nbsp;|&nbsp;
+  <button onclick="navigator.clipboard.writeText(document.getElementById('bibtex-{{ pub_id }}').innerText); this.innerText='Copied';" style="padding:0.15em 0.4em; border-radius:3px; border:1px solid #d1d5da; background:#f6f8fa; cursor:pointer;">
+    Copy BibTeX
+  </button>
+  <pre id="bibtex-{{ pub_id }}" style="display:none;">{{ include.bibtex }}</pre>
+  <br/><br/>
+  <img src="{{ include.image | relative_url }}" alt="{{ include.title }}" style="max-width:75%; height:auto; border-radius:4px;">
+</div>
